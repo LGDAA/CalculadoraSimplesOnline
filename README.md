@@ -1,14 +1,14 @@
 # Calculadora Simples Online
 
-🧮 Calculadora Simples<br>
+## 🧮 Calculadora Simples<br>
 Este é um projeto de uma calculadora simples, desenvolvida com HTML, CSS e JavaScript. Ela realiza operações matemáticas básicas como adição, subtração, multiplicação e divisão.
 
-🔧 Tecnologias utilizadas<br>
+## 🔧 Tecnologias utilizadas<br>
 HTML5 – estrutura da calculadora<br>
 CSS3 – estilização e layout<br>
 JavaScript – lógica das operações
 
-✨ Funcionalidades
+## ✨ Funcionalidades
 -Soma<br>
 -Subtração<br>
 -Multiplicação<br>
@@ -16,6 +16,7 @@ JavaScript – lógica das operações
 -Limpar visor<br>
 -Botão de igual (=)
 
+## 📁 Estrutura de Pastas
 ```
 calculadora-simples/
 ├── index.html
@@ -24,10 +25,10 @@ calculadora-simples/
   └── script.js
 ```
 
-📌 Observações <br>
+## 📌 Observações <br>
 Este projeto foi feito com fins de estudo e prática.
 
 Código limpo e comentado para facilitar entendimento.
 
-🧑‍💻 Autor<br>
+## 🧑‍💻 Autor<br>
 Desenvolvido por LGAA
