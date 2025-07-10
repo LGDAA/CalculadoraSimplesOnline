@@ -100,3 +100,93 @@ body{
   .button.clear:hover {
     background: #cc0000;
   }
+
+
+
+@media(max-width: 1024px){
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: linear-gradient(325deg,
+        #03001e 30%,
+        #01841d 70%,
+        #fdeff9 100%);
+        margin: 0;
+    }   
+
+    .container{
+        height: 470px;
+        width: 350px;
+        position: flex;
+        align-items: center;
+        align-self: center;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(60, 60, 60);
+}
+
+.container h2{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    display: flex;
+}
+
+.autor{
+    display:flex;
+    justify-self: center;
+    color: #fff;
+    font-size: 4rem;
+}
+
+.rodape .data{
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.container .calculadora{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 100%;    
+}
+
+.display {
+    width: 100%;
+    height: 50px;
+    background: #fffdfd;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: right;
+    padding: 10px;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+    
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    height: 250px;
+}
+
+.button{
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color:white;
+    background-color: #464545;
+    transition: 0.2s;
+}
+}
