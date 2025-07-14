@@ -32,6 +32,3 @@ calculadora-simples/
 Este projeto foi feito com fins de estudo e prática.
 
 Código limpo e comentado para facilitar entendimento.
-
-## 🧑‍💻 Autor<br>
-Desenvolvido por LGAA
